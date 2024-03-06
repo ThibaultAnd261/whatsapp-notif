@@ -1,9 +1,14 @@
 {
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/index"
+    "start": "npx ts-node ./src/index.ts"
   },
   "dependencies": {
     "@types/puppeteer": "^7.0.4",
-    "puppeteer": "^22.3.0"
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.3.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.0.0"
   }
 }
